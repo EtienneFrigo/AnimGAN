@@ -24,7 +24,7 @@ Real animations:
 The code include a part of pre-processing where the animations are shortened to 3 second long and set at 12 fps.
 After the pre-processing, animation are just containing 36 frames, which is quicker to process in the neural network.
 
-Low resolution animations:
++ **Low resolution animations:**
 ![12fpsReal1](images/12fpsReal1.gif "12 frame per second animation from the real animation dataset")
 ![12fpsReal2](images/12fpsReal2.gif "12 frame per second animation from the real animation dataset")
 
@@ -82,7 +82,6 @@ This programm was made during the developpment process of AnimGAN, as an interme
 - PostureGAN architecture:
 ![architecturePostureGAN](images/architecturePostureGAN.PNG "PostureGAN neural network architecture")
 
-- generated posture:
-
+- **generated posture:**
 ![generatedPosture1](images/generatedPosture1.PNG "generated/fake posture")
 ![generatedPosture2](images/generatedPosture2.PNG "generated/fake posture")
