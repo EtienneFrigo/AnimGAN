@@ -33,6 +33,7 @@ Low resolution animations:
 The neural network is a GAN that uses both Fully Connected (Dense) and Long Short Term Memory (LSTM) layers.
 
 Scheme of the network:
+
 ![architectureAnimGAN](images/architectureAnimGAN.PNG "animGAN neural network architecture")
 
 ## Latest results:
@@ -82,5 +83,6 @@ This programm was made during the developpment process of AnimGAN, as an interme
 ![architecturePostureGAN](images/architecturePostureGAN.PNG "PostureGAN neural network architecture")
 
 - generated posture:
+
 ![generatedPosture1](images/generatedPosture1.PNG "generated/fake posture")
 ![generatedPosture2](images/generatedPosture2.PNG "generated/fake posture")
