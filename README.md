@@ -1,5 +1,5 @@
-# AnimGAN
-Human gesture generation using generative adversarial network
+# **AnimGAN**
+**Human gesture generation using generative adversarial network**
 
 ## Presentation:
 
@@ -19,12 +19,10 @@ All the animations in this dataset were obtain with motion capture devices. They
 The character is sitting while maling the gestures.
 All the file are from 2 to 12 seconds long and run at 120 frames per second (fps).
 
-Real animations:
-
 The code include a part of pre-processing where the animations are shortened to 3 second long and set at 12 fps.
 After the pre-processing, animation are just containing 36 frames, which is quicker to process in the neural network.
 
-+ **Low resolution animations:**
+#### Low resolution animations:
 ![12fpsReal1](images/12fpsReal1.gif "12 frame per second animation from the real animation dataset")
 ![12fpsReal2](images/12fpsReal2.gif "12 frame per second animation from the real animation dataset")
 
@@ -33,7 +31,6 @@ After the pre-processing, animation are just containing 36 frames, which is quic
 The neural network is a GAN that uses both Fully Connected (Dense) and Long Short Term Memory (LSTM) layers.
 
 Scheme of the network:
-
 ![architectureAnimGAN](images/architectureAnimGAN.PNG "animGAN neural network architecture")
 
 ## Latest results:
@@ -72,7 +69,7 @@ These classes came from the work of HOLDEN Daniel, KOMURA Taku and SAITO jun in 
 
 ## Other files:
 
-+ Posture GAN:
++ **Posture GAN:**
 Using the same dataset as the AnimGAN, this programm can generate realictic postures. These postures are just individual frames.
 An animation is a serie of posture (or keyframes). Even with a simple an architure of just a few fully connected layers, this GAN can give good loooking results.
 The program stack in a same BVH file samples of the generated postures during the training.
@@ -82,6 +79,6 @@ This programm was made during the developpment process of AnimGAN, as an interme
 - PostureGAN architecture:
 ![architecturePostureGAN](images/architecturePostureGAN.PNG "PostureGAN neural network architecture")
 
-- **generated posture:**
+#### generated posture:
 ![generatedPosture1](images/generatedPosture1.PNG "generated/fake posture")
 ![generatedPosture2](images/generatedPosture2.PNG "generated/fake posture")
